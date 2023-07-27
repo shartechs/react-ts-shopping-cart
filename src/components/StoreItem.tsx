@@ -1,6 +1,8 @@
 import { Card, Button } from "react-bootstrap";
 import { formatCurrency } from "../utilities/formatCurrencty";
 
+// describing props
+
 type StoreItemProps = {
   id: number;
   name: string;
